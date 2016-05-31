@@ -1,0 +1,13 @@
+.nav {
+    background-color: $grey-dark;
+    color: #fff;
+
+    ul {  // foundation overrides
+        background-color: $grey-dark;
+        .menu-text a {
+            display: inline;
+            padding: 0;
+        }
+    }
+
+}
