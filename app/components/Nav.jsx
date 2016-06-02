@@ -8,7 +8,7 @@ var Nav = () => {
         <ul className="menu">
           <li className="menu-text">React Timer App</li>
           <li><IndexLink activeClassName="active" to="/">Timer</IndexLink></li>
-          <li><Link activeClassName="active" to="/">Countdown</Link></li>
+          <li><Link activeClassName="active" to="/countdown">Countdown</Link></li>
         </ul>
       </div>
       <div className="top-bar-right">

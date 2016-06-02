@@ -2,6 +2,11 @@
     background-color: $grey-dark;
     color: #fff;
 
+    .active {
+        font-weight: bold;
+    }
+
+
     ul {  // foundation overrides
         background-color: $grey-dark;
         .menu-text a {
